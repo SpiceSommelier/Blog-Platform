@@ -1,0 +1,11 @@
+@import "./fonts.css";
+@import "./stylesReset.css";
+body {
+  background-color: #ebeef3;
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

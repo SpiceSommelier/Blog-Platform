@@ -1,0 +1,11 @@
+.textErrorCheckbox {
+  color: #f5222d;
+}
+
+.checkboxContainer {
+  padding-top: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  border-top: 1px solid #e8e8e8;
+}

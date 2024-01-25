@@ -1,0 +1,96 @@
+.header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 22px;
+  color: rgba(0, 0, 0, 0.85);
+  z-index: 1;
+}
+.header,
+.header > h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+.header .notAuth {
+  display: flex;
+  gap: 20px;
+}
+.header a {
+  cursor: pointer;
+}
+.header .notAuth a {
+  padding: 6px 18px;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.signIn:hover,
+.signIn:global(.active) {
+  background-color: blue;
+}
+.signUp {
+  border: 1px solid #52c41a;
+}
+.signUp:hover,
+.signUp:global(.active) {
+  background-color: #52c41a;
+}
+.header .notAuth a:hover,
+.header .notAuth a:global(.active) {
+  color: #fff;
+}
+.logOut {
+  padding: 6px 18px;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-style: normal;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  transition-duration: 0.4s;
+}
+.logOut:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+.profileContainer {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+.createArticle {
+  padding: 6px 10px;
+  border-radius: 5px;
+  color: #52c41a;
+  border: 1px solid #52c41a;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  line-height: 22px;
+}
+.createArticle:hover,
+.createArticle:global(.active) {
+  background-color: #52c41a;
+  color: #fff;
+}
+.imgContainer {
+  width: 46px;
+  height: 46px;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+.imgContainer img {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  object-position: top center;
+}
+.imgContainer:global(.active) {
+  border: 2px solid #52c41a;
+}

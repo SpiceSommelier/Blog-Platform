@@ -1,0 +1,60 @@
+.articleContainer {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding: 24px 20px;
+}
+.articleContainer:hover {
+  box-shadow: 15px 15px 15px 3px rgba(34, 60, 80, 0.2);
+}
+.tagContainer {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 2px 6px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.imgContainer {
+  width: 46px;
+  height: 46px;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+.imgContainer img {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  object-position: top center;
+}
+.authorContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: right;
+}
+.createdDate {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 22px;
+}
+.author {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 28px;
+}
+.favotiteContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.favotiteContainer span {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 22px;
+}

@@ -1,0 +1,29 @@
+.formArticle {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.deleteTagButton {
+  border: 1px solid #f5222d !important;
+  color: #f5222d !important;
+}
+.deleteTagButton:hover {
+  color: #fff !important;
+  background-color: #f5222d !important;
+}
+:global(.button) {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  padding: 7px 16px !important;
+  border-radius: 4px !important;
+  align-self: end !important;
+  transition-duration: 0.4s !important;
+}
+.addTagButton {
+  color: #1890ff !important;
+  border: 1px solid #1890ff !important;
+}
+.addTagButton:hover {
+  color: #fff !important;
+  background-color: #1890ff !important;
+}

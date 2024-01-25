@@ -1,0 +1,121 @@
+.articlePostInfoContainer {
+  flex: 0 0 682px;
+  overflow: hidden;
+}
+.articleItem {
+  color: #1890ff;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 660px;
+  overflow: hidden;
+}
+.titleContainer {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  word-wrap: break-word;
+}
+.favoritesContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.tagsContainer {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-top: 4px;
+}
+.tagsContainer > span {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 12px;
+  padding: 2px 4px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.descriptionContainer {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 20px;
+  word-break: break-word;
+}
+.imgContainer {
+  width: 46px;
+  height: 46px;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+.imgContainer img {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  object-position: top center;
+}
+.authorInfoContainer {
+  display: flex;
+  gap: 12px;
+  position: relative;
+}
+.nameAndDateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.nameAndDateContainer p:first-child {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 28px;
+}
+.nameAndDateContainer p:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 22px;
+}
+.controlTask {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  display: flex;
+  gap: 12px;
+}
+.deleteArticle {
+  padding: 6px 16px;
+  color: #f5222d;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 5px;
+  border: 1px solid #f5222d;
+  transition-duration: 0.4s;
+}
+.deleteArticle:hover {
+  background-color: #f5222d;
+  color: #fff;
+}
+.editArticle {
+  padding: 6px 16px;
+  color: #52c41a;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 5px;
+  border: 1px solid #52c41a;
+  transition-duration: 0.4s;
+}
+.editArticle:hover {
+  background-color: #52c41a;
+  color: #fff;
+}

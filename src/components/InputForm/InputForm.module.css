@@ -1,0 +1,15 @@
+.textErrorInput,
+.textInput {
+  font-size: 14px;
+  line-height: 22px;
+}
+.textInput {
+  color: #262626;
+}
+.textErrorInput {
+  color: #f5222d;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}

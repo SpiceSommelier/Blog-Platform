@@ -1,0 +1,56 @@
+/*Elements style reset*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+button,
+input {
+  overflow: visible;
+  appearance: none;
+}
+
+button,
+select {
+  text-transform: none;
+  outline: inherit;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+/* End styles reset of buttons*/
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 62px;
+}
+.disabled {
+  cursor: not-allowed;
+}
+body {
+  overflow-x: hidden;
+}
